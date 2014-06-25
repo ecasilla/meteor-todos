@@ -9,7 +9,14 @@ Router.configure({
   routeControllerNameConverter: 'upperCamelCase'
 });
 
-Router.onBeforeAction('Loading')
+var renderLoadingHook = function(pause) {
+  if (!this.ready()) {
+    this.render('Loading')
+    pause()
+  }
+};
+
+Router.onBeforeAction(renderLoadingHook)
 
 Router.map(function () {
   /*
@@ -18,4 +25,6 @@ Router.map(function () {
   */
   this.route('todos.index', {path: '/todos'});
   this.route('todos.detail', {path: '/todos/:_id'});
+  this.route('home', {path: '/'});
+  this.route('todo.lists.index', {path: '/'});
 });
