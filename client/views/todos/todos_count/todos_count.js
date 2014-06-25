@@ -1,7 +1,7 @@
 /*****************************************************************************/
-/* MasterLayout: Event Handlers and Helpers */
+/* TodosCount: Event Handlers and Helpers */
 /*****************************************************************************/
-Template.MasterLayout.events({
+Template.TodosCount.events({
   /*
    * Example:
    *  'click .selector': function (e, tmpl) {
@@ -10,24 +10,31 @@ Template.MasterLayout.events({
    */
 });
 
-Template.MasterLayout.helpers({
-
+Template.TodosCount.helpers({
   /*
    * Example:
    *  items: function () {
    *    return Items.find();
    *  }
    */
+
+   completedCount: function () {
+    return Todos.find({is_done: true}).count();
+  },
+
+  totalCount: function () {
+    return Todos.find({}).count();
+  }
 });
 
 /*****************************************************************************/
-/* MasterLayout: Lifecycle Hooks */
+/* TodosCount: Lifecycle Hooks */
 /*****************************************************************************/
-Template.MasterLayout.created = function () {
+Template.TodosCount.created = function () {
 };
 
-Template.MasterLayout.rendered = function () {
+Template.TodosCount.rendered = function () {
 };
 
-Template.MasterLayout.destroyed = function () {
+Template.TodosCount.destroyed = function () {
 };

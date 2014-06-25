@@ -1,7 +1,7 @@
 /*****************************************************************************/
-/* MasterLayout: Event Handlers and Helpers */
+/* TodosIndex: Event Handlers and Helpers */
 /*****************************************************************************/
-Template.MasterLayout.events({
+Template.TodosIndex.events({
   /*
    * Example:
    *  'click .selector': function (e, tmpl) {
@@ -10,24 +10,34 @@ Template.MasterLayout.events({
    */
 });
 
-Template.MasterLayout.helpers({
-
+Template.TodosIndex.helpers({
   /*
    * Example:
    *  items: function () {
    *    return Items.find();
    *  }
    */
+items: function () {
+    return Todos.find({}, {
+      sort: {
+        created_at: -1
+      }
+    });
+  },
+
+  isDoneClass: function () {
+    return this.is_done ? 'done' : '';
+  }
 });
 
 /*****************************************************************************/
-/* MasterLayout: Lifecycle Hooks */
+/* TodosIndex: Lifecycle Hooks */
 /*****************************************************************************/
-Template.MasterLayout.created = function () {
+Template.TodosIndex.created = function () {
 };
 
-Template.MasterLayout.rendered = function () {
+Template.TodosIndex.rendered = function () {
 };
 
-Template.MasterLayout.destroyed = function () {
+Template.TodosIndex.destroyed = function () {
 };

@@ -5,7 +5,9 @@
 
 standard-app-packages
 iron-router
-bootstrap
 accounts-password
 accounts-ui
 less
+bootstrap-3
+font-awesome
+accounts-entry
