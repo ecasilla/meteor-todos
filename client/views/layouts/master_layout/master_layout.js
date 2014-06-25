@@ -3,7 +3,7 @@
 /*****************************************************************************/
 Template.MasterLayout.events({
   /*
-   * Example: 
+   * Example:
    *  'click .selector': function (e, tmpl) {
    *
    *  }
@@ -11,8 +11,9 @@ Template.MasterLayout.events({
 });
 
 Template.MasterLayout.helpers({
+
   /*
-   * Example: 
+   * Example:
    *  items: function () {
    *    return Items.find();
    *  }
