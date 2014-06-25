@@ -9,6 +9,8 @@ Router.configure({
   routeControllerNameConverter: 'upperCamelCase'
 });
 
+Router.onBeforeAction('Loading')
+
 Router.map(function () {
   /*
     Example:
