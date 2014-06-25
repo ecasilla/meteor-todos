@@ -1,9 +1,14 @@
 <template name="MasterLayout">
   <div class="container">
-    <div class="login">
-      {{> loginButtons}}
+    <div class="row">
+        <div class="login">
+          {{> loginButtons}}
+        </div>
+      </div>
+
+    <div class="row">
+        {{> yield}}
     </div>
-    {{> yield}}
   </div>
 
 </template>
