@@ -14,5 +14,6 @@ Router.map(function () {
     Example:
       this.route('home', {path: '/'});
   */
-  this.route('todos.index', {path: '/'});
+  this.route('todos.index', {path: '/todos'});
+  this.route('todos.detail', {path: '/todos/:_id'});
 });

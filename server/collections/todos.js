@@ -11,11 +11,11 @@ Todos.allow({
   },
 
   update: function (userId, doc, fieldNames, modifier) {
-    return doc.userId === userId;
+    return doc.user_id === userId;
   },
 
   remove: function (userId, doc) {
-    return doc.userId === userId;
+    return doc.user_id === userId;
   }
 });
 
