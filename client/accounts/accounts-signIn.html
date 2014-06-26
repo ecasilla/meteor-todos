@@ -1,0 +1,41 @@
+<template name="EntrySignIn">
+  <div class="container">
+    <div class="row">
+      {{#if logo}}
+        <div class="entry-logo">
+            <a rel='nofollow' target='_blank' href="/"><img src="{{logo}}" alt="logo"></a>
+        </div>
+      {{/if}}
+      <div class="entry-sign-in">
+        {{#if otherLoginServices}}
+        <div class="entry-social">
+          {{#each loginServices}}
+            {{> entrySocial}}
+          {{/each}}
+          {{#if passwordLoginService}}
+          <div class="email-option">
+            <strong class="line-thru or-sign-in">{{i18n "OR"}}</strong>
+          </div>
+          {{/if}}
+        </div>
+        {{/if}}
+        {{> entryError}}
+        {{#unless otherLoginServices}}
+        {{/unless}}
+        {{#if passwordLoginService}}
+          <form class="entry-form" id='signIn'>
+            <div class="form-group">
+              <input autofocus name="email" type="{{emailInputType}}" class="form-control" value='{{email}}' placeholder="email">
+            </div>
+            <div class="form-group">
+              <input name="password" type="password" class="form-control" value='{{password}}' placeholder="password">
+            </div>
+            <p><a rel='nofollow' target='_blank' href="/forgot-password">{{i18n "forgotPassword"}}</a></p>
+            <button type="submit" class="submit btn btn-success">Sign In</button>
+          </form>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+
+</template>

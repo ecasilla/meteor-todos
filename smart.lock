@@ -5,7 +5,9 @@
       "iron-router": {},
       "bootstrap-3": {},
       "font-awesome": {},
-      "accounts-entry": {}
+      "accounts-entry": {},
+      "houston": {},
+      "supercalendar": {}
     },
     "packages": {
       "iron-router": {
@@ -28,6 +30,16 @@
         "tag": "v0.7.3",
         "commit": "7facaa045d3720eeeba3420c28e48d5709188fe3"
       },
+      "houston": {
+        "git": "https://github.com/gterrono/houston.git",
+        "tag": "v1.0.6",
+        "commit": "49765acf835385de6de6160b0c86514d5af09395"
+      },
+      "supercalendar": {
+        "git": "https://github.com/gabrielhpugliese/meteor_supercalendar",
+        "tag": "v0.2.0",
+        "commit": "70229679d36b96be28abab4bf4105a7480d4ebbf"
+      },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
         "tag": "v0.2.4",
@@ -37,6 +49,26 @@
         "git": "https://github.com/softwarerero/meteor-accounts-t9n.git",
         "tag": "v0.0.5",
         "commit": "ad9539a8818049d5d9fa050d8b2a1f62706483b1"
+      },
+      "paginated-subscription": {
+        "git": "https://github.com/tmeasday/meteor-paginated-subscription.git",
+        "tag": "v0.2.2",
+        "commit": "2133a2163575f569f90253f81314f21b2bf08d20"
+      },
+      "spin": {
+        "git": "https://github.com/SachaG/meteor-spin.git",
+        "tag": "v0.2.2",
+        "commit": "3f655f0016228e4195acc784c45d3e3a247dc39f"
+      },
+      "Mesosphere": {
+        "git": "https://github.com/copleykj/Mesosphere.git",
+        "tag": "v0.1.9",
+        "commit": "dc63582fa5d3a4dc3952a80bead9625ef4ab259b"
+      },
+      "underscore-string-latest": {
+        "git": "https://github.com/TimHeckel/meteor-underscore-string.git",
+        "tag": "v2.3.3",
+        "commit": "4a5d70eee48fbd90a6e6fc78747250d704a0b3bb"
       }
     }
   }

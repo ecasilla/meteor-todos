@@ -1,7 +1,7 @@
 /*****************************************************************************/
-/* TodoListsIndex Publish Functions
+/* CalenderIndex Publish Functions
 /*****************************************************************************/
 
-Meteor.publish('todo_lists_index', function () {
-  return TodoLists.find({user_id: this.userId})
+Meteor.publish('calender_index', function () {
+return Calender.find({user_id: this.userId})
 });

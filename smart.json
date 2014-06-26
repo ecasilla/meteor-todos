@@ -3,6 +3,8 @@
     "iron-router": {},
     "bootstrap-3": {},
     "font-awesome": {},
-    "accounts-entry": {}
+    "accounts-entry": {},
+    "houston": {},
+    "supercalendar": {}
   }
 }
