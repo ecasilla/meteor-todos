@@ -3,6 +3,11 @@
     "iron-router": {},
     "bootstrap-3": {},
     "font-awesome": {},
-    "accounts-entry": {}
+    "accounts-entry": {},
+    "houston": {},
+    "supercalendar": {},
+    "pnotify": {},
+    "collection-hooks": {},
+    "aws-sdk": {}
   }
 }

@@ -1,37 +1,32 @@
 /*****************************************************************************/
-/* MasterLayout: Event Handlers and Helpers */
+/* CalenderIndex: Event Handlers and Helpers */
 /*****************************************************************************/
-Template.MasterLayout.events({
+Template.CalenderIndex.events({
   /*
-   * Example:
+   * Example: 
    *  'click .selector': function (e, tmpl) {
    *
    *  }
    */
 });
 
-Template.MasterLayout.helpers({
-
+Template.CalenderIndex.helpers({
   /*
-   * Example:
+   * Example: 
    *  items: function () {
    *    return Items.find();
    *  }
    */
 });
 
-Template.MasterLayout.currentPath =  function () {
-    return Router && Router.current() && Router.current().path;
-};
-
 /*****************************************************************************/
-/* MasterLayout: Lifecycle Hooks */
+/* CalenderIndex: Lifecycle Hooks */
 /*****************************************************************************/
-Template.MasterLayout.created = function () {
+Template.CalenderIndex.created = function () {
 };
 
-Template.MasterLayout.rendered = function () {
+Template.CalenderIndex.rendered = function () {
 };
 
-Template.MasterLayout.destroyed = function () {
+Template.CalenderIndex.destroyed = function () {
 };

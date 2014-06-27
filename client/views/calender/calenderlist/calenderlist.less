@@ -1,7 +1,3 @@
 /*****************************************************************************/
-/* TodoListsIndex Publish Functions
+/* Calenderlist: Style */
 /*****************************************************************************/
-
-Meteor.publish('todo_lists_index', function () {
-  return TodoLists.find({user_id: this.userId})
-});

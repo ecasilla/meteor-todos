@@ -5,8 +5,6 @@ TodosIndexController = RouteController.extend({
   },
 
   data: function () {
-    Session.setDefault('list_id', null);
-    Session.setDefault('editing_listname', null);
   },
 
   action: function () {
