@@ -5,6 +5,9 @@
     "font-awesome": {},
     "accounts-entry": {},
     "houston": {},
-    "supercalendar": {}
+    "supercalendar": {},
+    "pnotify": {},
+    "collection-hooks": {},
+    "aws-sdk": {}
   }
 }
