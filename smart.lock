@@ -10,7 +10,10 @@
       "supercalendar": {},
       "pnotify": {},
       "collection-hooks": {},
-      "aws-sdk": {}
+      "aws-sdk": {},
+      "jasmine-unit": {},
+      "velocity-html-reporter": {},
+      "streams": {}
     },
     "packages": {
       "iron-router": {
@@ -20,8 +23,8 @@
       },
       "bootstrap-3": {
         "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
-        "tag": "v3.1.1-1",
-        "commit": "63dd38968828bb8963636df93e9a1c45e2dfe67e"
+        "tag": "v3.2.0-1",
+        "commit": "17a63902fc6cf1096c5289d963c66cf28b474727"
       },
       "font-awesome": {
         "git": "https://github.com/nate-strauser/meteor-font-awesome.git",
@@ -58,6 +61,21 @@
         "tag": "v1.5.1.1",
         "commit": "63efa4ebbe9986bd875f69d5fdf3248c5c44159e"
       },
+      "jasmine-unit": {
+        "git": "https://github.com/xolvio/jasmine-unit.git",
+        "tag": "v0.1.17",
+        "commit": "d96a7e46ec5bcb3fdf8a3c8c0b75e084dc168c1b"
+      },
+      "velocity-html-reporter": {
+        "git": "https://github.com/rdickert/velocity-html-reporter.git",
+        "tag": "v0.1.2",
+        "commit": "5e30cd2adccd1ce7999fb50e33dab0b7841cec87"
+      },
+      "streams": {
+        "git": "https://github.com/arunoda/meteor-streams.git",
+        "tag": "v0.1.17",
+        "commit": "9fcbbc9b7bf542827babc92089c19e730892a22f"
+      },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
         "tag": "v0.2.4",
@@ -87,6 +105,16 @@
         "git": "https://github.com/peerlibrary/meteor-blocking.git",
         "tag": "v0.4.0",
         "commit": "e25a0be72e771b317b26d2bb5758c983bdcef23c"
+      },
+      "velocity": {
+        "git": "https://github.com/xolvio/velocity.git",
+        "tag": "v0.1.10",
+        "commit": "b9f6291dd2453ac47773cadc72a9e94438ee9cdb"
+      },
+      "package-stubber": {
+        "git": "https://github.com/alanning/meteor-package-stubber.git",
+        "tag": "v0.0.7",
+        "commit": "f6d76ae3c9107d25e42bc5b297a8799145e99f73"
       },
       "underscore-string-latest": {
         "git": "https://github.com/TimHeckel/meteor-underscore-string.git",

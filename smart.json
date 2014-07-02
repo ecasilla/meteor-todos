@@ -8,6 +8,9 @@
     "supercalendar": {},
     "pnotify": {},
     "collection-hooks": {},
-    "aws-sdk": {}
+    "aws-sdk": {},
+    "jasmine-unit": {},
+    "velocity-html-reporter": {},
+    "streams": {}
   }
 }

@@ -16,3 +16,6 @@ supercalendar
 pnotify
 collection-hooks
 aws-sdk
+velocity-html-reporter
+jasmine-unit
+streams

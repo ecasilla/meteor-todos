@@ -27,4 +27,6 @@ Router.map(function () {
   this.route('todos.detail', {path: '/todos/:_id'});
   this.route('home', {path: '/'});
   this.route('calender.index', {path: '/calender'});
+  this.route('chat.index', {path: '/'});
+  this.route('notes.index', {path: '/'});
 });
